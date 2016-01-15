@@ -3,6 +3,7 @@ git-gdrive: format-patch / am over Google Drive
 ===============================================
 
 `git-gdrive` allows to use Google Drive as a way to exchange patches.
+
 Designed to quickly exchange patches between different machines or
 to share with teammates.
 
@@ -36,7 +37,7 @@ And add the following to you ~/.bashrc
 
   # If using depot_tools
   cd C:\depot_tools\python276_bin\Scripts
-  
+
   pip install git-gdrive
   git-gdrive auth
 
