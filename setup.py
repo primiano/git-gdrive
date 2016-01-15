@@ -10,7 +10,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 setup(
     name='git-gdrive',
     version='1.0.0',
-    description='push/pull patchsets to Google Drive',
+    description='git-gdrive: format-patch / am over Google Drive',
     long_description=long_description,
     url='https://github.com/primiano/git-gdrive',
     author='Primiano Tucci',
