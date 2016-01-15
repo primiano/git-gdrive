@@ -11,6 +11,34 @@ to share with teammates.
   git gdrive push is the equivalent of git format-patch + upload to gdrive.
   git gdrive pull is the equivalent of download from gdrive + git am.
 
+Installation
+------------
+
+**Linux / Mac**
+
+.. code-block:: bash
+
+  pip install --user git-gdrive
+
+And add the following to you ~/.bashrc
+
+.. code-block:: bash
+
+  # On Linux
+  export PATH="$PATH:$HOME/.local/bin"
+
+  # On Mac
+  export PATH="$PATH:$HOME/Library/Python/2.7/bin"
+
+**Windows**
+
+.. code-block:: bash
+
+  # If using depot_tools
+  cd C:\depot_tools\python276_bin\Scripts
+  
+  pip install git-gdrive
+  git-gdrive auth
 
 Examples
 --------
